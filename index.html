@@ -21,41 +21,45 @@
     <div class="calc-container">
       <div class="calc-card">
         <form action="#" id="ageCalculatorForm">
-          <div class="first-section">
+          <section class="first-section">
             <div class="flex">
               <span id="label-day">Day</span>
               <input placeholder="DD" id="day">
-              <p class="error-msg"><i id="dayValidationError"></i></p>
             </div>
             <div class="flex">
               <span id="label-month">Month</span>
               <input placeholder="MM" id="month">
-              <p class="error-msg"><i id="monthValidationError"></i></p>
             </div>
             <div class="flex">
               <span id="label-year">Year</span>
               <input placeholder="YYYY" id="year">
+            </div>
+          </section>
+          <section>
+            <div class="error-section">
+              <p class="error-msg"><i id="dayValidationError"></i></p>
+              <p class="error-msg"><i id="monthValidationError"></i></p>
               <p class="error-msg"><i id="yearValidationError"></i></p>
             </div>
-          </div>
+          </section>
           <div class="button-line">
             <div class="line"></div>
             <button type="submit" id="calculateBtn"><img src="/assets/images/icon-arrow.svg" alt="submit-arrow"></button>
           </div>
         </form>
 
-        <div class="show-result">
+        <section class="show-result">
           <h1><i><span id="yearResult">--</span>years</i></h1>
           <h1><i><span id="monthResult">--</span>months</i></h1>
           <h1><i><span id="dayResult">--</span>days</i></h1>
-        </div>
+        </section>
       </div>
     </div>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Dorothy9573</a>.
-    </div>
+    </footer>
   </div>
 </body>
 <script>
