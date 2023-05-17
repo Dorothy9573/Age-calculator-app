@@ -48,7 +48,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]()
 - Live Site URL: (https://dorothy9573.github.io/Age-calculator-app/), (https://dorothy-age-calculator-app.netlify.app/)
 
 ## My process
